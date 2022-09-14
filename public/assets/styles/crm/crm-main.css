@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/Inter-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    --gray-color: #0f1012;
+    --lightgray-color: #1D2024FF;
+    --green-color: #00ff64;
+    color: white;
+    background: var(--gray-color);
+}
+
+button {
+    user-select: none;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid var(--green-color);
+    box-shadow: -5px 0px 13px #00ffad7a, 5px 0px 13px #b7ff007a;
+}
+
+@media (min-width: 576px) {
+    .wrapper {
+        max-width: 700px;
+        margin: 30px auto 0;
+    }
+}

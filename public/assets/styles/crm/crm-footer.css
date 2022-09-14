@@ -1,0 +1,13 @@
+.crm-footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px 14px;
+    margin-top: 20px;
+    background: var(--green-color);
+    color: black;
+}
+
+.crm-footer__date {
+    font-size: 14px;
+}
